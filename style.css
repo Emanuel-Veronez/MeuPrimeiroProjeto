@@ -38,7 +38,7 @@ html {
 .line {
     width: 100%;
     height: .1rem;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0.1rem 0.1rem 1px #000;
     transition: transform 1s;
 }
@@ -86,9 +86,9 @@ html {
 
 header {
     width: 100%;
-    height: 100vh;
+    height: 95vmax;
     overflow: hidden;
-    position: relative;
+    position: static;
 }
 
 .img-wrapper {
@@ -183,7 +183,6 @@ header {
     right: -40rem;
     transition: all 1s;
     z-index: 50;
-    opacity: 0.1;
 }
 
 .show-menu .sidebar {
