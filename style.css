@@ -23,7 +23,7 @@ html {
     height: 3rem;
     position: fixed;
     z-index: 100;
-    right: 3rem;
+    right: 1rem;
     top: 2;
     display: flex;
     flex-direction: column;
