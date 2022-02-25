@@ -180,7 +180,7 @@ header {
     background-color: #fff;
     position: fixed;
     top: 0;
-    right: -20rem;
+    right: -40rem;
     transition: all 1s;
     z-index: 50;
 }
