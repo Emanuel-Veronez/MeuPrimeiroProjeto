@@ -92,14 +92,14 @@ header {
 }
 
 .img-wrapper {
-    width: 100%;
+    width: 150%;
     height: 100%;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0, 8)
 }
 
 .img-wrapper img {
-    width: 100%;
+    width: 150%;
     height: 100%;
     object-fit: cover;
     opacity: 0.7;
@@ -118,7 +118,7 @@ header {
 .banner {
     position: absolute;
     top: 30%;
-    left: 05%;
+    left: 0%;
 }
 
 .banner h1 {
