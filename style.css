@@ -7,15 +7,7 @@
     text-decoration: none;
 }
 
-@media only screen and (max-device-width: 864px) {
-    /* .menu { width:864%; } */
-}
-
-@media only screen and (max-device-width: 1000px) {
-    /* .menu { width:100%; } */
-}
-
-:root {
+*/:root {
     --font-primary: " Josefin Slab", serif;
     --font-secundary: " Josefin Slab", serif;
     --font-action: " Josefin Slab", serif;
