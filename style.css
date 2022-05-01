@@ -305,14 +305,14 @@ header {
 }
 
 .conhecimentos-img-wrapper {
-    grid-column: 7/11;
-    grid-row: 2/6;
-    width: 100%;
+    grid-column: 6/11;
+    grid-row: 1/6;
+    width: 95%;
 }
 
 .conhecimentos-img-wrapper img {
     object-fit: cover;
-    width: 100%;
+    width: 120%;
 }
 
 .projetos {
@@ -504,8 +504,8 @@ header {
 }
 
 .orcamento-wrapper {
-    width: 60%;
-    height: 80%;
+    width: auto;
+    height: 90%;
     background-color: #ffffff99;
     border-radius: 10px;
     box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
