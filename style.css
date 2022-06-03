@@ -380,6 +380,7 @@ header {
 }
 
 .btn {
+    cursor: pointer;
     background: #6a3093;
     background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
     background: linear-gradient(to right, #E100FF, #7F00FF);
@@ -391,6 +392,7 @@ header {
 }
 
 .card-info button {
+    cursor: pointer;
     width: 5rem;
     height: 2.5rem;
 }
