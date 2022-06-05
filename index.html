@@ -135,7 +135,7 @@
                     </div>
                     <div class="card-info">
                         <h2></h2>
-                        <h3>HTML,Css e JavaScript</h3>
+                        <h3>HTML,Css <br> e JavaScript</h3>
                         <p> Meu site com meu Portfólio </p>
                         <a href="https://espaco-projeto-veronez-b444d8o.netlify.app/"><button class="btn">Saiba Mais</button></a>
                     </div>
@@ -157,9 +157,9 @@
                     </div>
                     <div class="card-info">
                         <h2></h2>
-                        <h3></h3>
-                        <p> Em breve </p>
-                        <button class="btn">Saiba Mais</button>
+                        <h3>HTML, CSS <br> e JavaScript</h3>
+                        <p> Portfólio </p>
+                        <a href="https://portfolioequipe.netlify.app/"><button class="btn">Saiba Mais</button></a>
                     </div>
                 </div>
             </div>
@@ -170,24 +170,25 @@
                 <div class="contato-left"></div>
                 <div class="contato-right">
                     <h1>Contato</h1>
-                    <form>
+                    <form action="https://formsubmit.co/emanuel.veronezz@gmail.com" method="POST" class="contact">
 
 
                         <div class="input-group">
-                            <input type="text" class="field" id="nome">
+                            <input type="text" name="Nome" class="field" id="nome">
                             <label for="nome" class="field-label">Nome</label>
                         </div>
                         <div class="input-group">
-                            <input type="text" class="field" id="email">
+                            <input type="text" name="Email" class="field" id="email">
                             <label for="email" class="field-label">E-mail</label>
                         </div>
                         <div class="input-group">
-                            <textarea class="field" id="mensagem"></textarea>
+                            <textarea class="field" name="Menssagem" id="mensagem"></textarea>
                             <label for="mensagem" class="field-label">Mensagem</label>
                         </div>
-                        <a href="mailto:emanuel.veronezz@gmail.com">
-                            <buttontype="submit" class="btn btn-submit">
-                                </button>Enviar</a>
+
+                        <button type="submit" class="btn btn-submit">
+                            Enviar</button>
+                        <input type="hidden" name="_next" value="https://emanuel-veronez.github.io/MeuPrimeiroProjeto/" />
 
 
                     </form>
@@ -200,7 +201,7 @@
         <section class="sessao-orcamento" id="orcamento">
             <div class="orcamento-wrapper">
                 <h1>Faça um orçamento</h1>
-                <form>
+                <form action="https://formsubmit.co/emanuel.veronezz@gmail.com" method="POST" class="contact">
                     <label for="qtde">Qtde de Páginas</label>
                     <input type="number" min="1" name="qtde" id="qtde">
                     <label for="js">Preciso de um script JS</label>
@@ -220,6 +221,7 @@
                     <input type="range" name="prazo" id="prazo" min="1" max="10">
                     <label id="preco" R$ 0,00></label>
                     <button class="btn btn-orcamento" type="submit">Enviar</button>
+                    <input type="hidden" name="_next" value="https://emanuel-veronez.github.io/MeuPrimeiroProjeto/" />
                 </form>
 
             </div>
